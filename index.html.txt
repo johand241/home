@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Duran Construction LLC | Allentown, PA | 929-508-6227</title>
+<style>
+:root {
+--primary: #1a2a3a;
+--accent: #d35400;
+--light: #f4f7f6;
+--white: #ffffff;
+--success: #27ae60;
+--fb: #1877F2;
+--ig: #E4405F;
+--wa: #25D366;
+--zelle: #6d1ed1;
+--venmo: #3d95ce;
+}
+
+body { font-family: 'Segoe UI', Arial, sans-serif; margin: 0; color: #333; line-height: 1.6; scroll-behavior: smooth; }
+
+header { background: var(--primary); color: white; padding: 0.8rem 5%; display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; z-index: 1000; box-shadow: 0 2px 10px rgba(0,0,0,0.2); }
+.logo-container { display: flex; align-items: center; gap: 12px; }
+/* Inverts the black logo to white for high contrast on the dark header */
+.nav-logo { height: 65px; width: auto; filter: brightness(0) invert(1); }
+
+.header-contacts { display: flex; gap: 10px; align-items: center; }
+.nav-link { color: white; text-decoration: none; padding: 8px 12px; border-radius: 5px; font-size: 0.85rem; display: flex; align-items: center; gap: 8px; border: 1px solid rgba(255,255,255,0.3); transition: 0.3s; }
+.phone-link { background: var(--success); border: none; font-weight: bold; }
+
+.hero { background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&q=80&w=2000');
+height: 85vh; background-size: cover; background-position: center; display: flex; flex-direction: column; justify-content: center; align-items: center; color: white; text-align: center; padding: 0 20px; }
+
+.hero-logo { height: 250px; margin-bottom: 10px; filter: brightness(0) invert(1) drop-shadow(0px 4px 10px rgba(0,0,0,0.5)); }
+.badge { background: var(--success); color: white; padding: 8px 20px; border-radius: 50px; font-size: 0.9rem; font-weight: bold; margin-bottom: 20px; }
+
+.section-padding { padding: 4rem 5%; }
+.text-center { text-align: center; }
+
+.service-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; margin-top: 2rem; }
+.card { background: white; border: 1px solid #eee; padding: 25px; border-radius: 12px; transition: 0.3s; text-align: center; }
+.card:hover { transform: translateY(-5px); border-color: var(--accent); box-shadow: 0 10px 20px rgba(0,0,0,0.05); }
+
+.payment-grid { display: flex; justify-content: center; gap: 12px; flex-wrap: wrap; margin-top: 2rem; }
+.pay-method { background: white; padding: 12px 18px; border-radius: 10px; border: 1px solid #ddd; display: flex; align-items: center; gap: 10px; font-weight: bold; font-size: 0.85rem; }
+.disclaimer-box { max-width: 700px; margin: 2rem auto 0; padding: 20px; background: rgba(211, 84, 0, 0.05); border-left: 4px solid var(--accent); border-radius: 4px; font-size: 0.9rem; text-align: left; }
+
+form { max-width: 600px; margin: 0 auto; background: var(--white); padding: 40px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+input, select, textarea { width: 100%; padding: 12px; margin: 10px 0 20px; border: 1px solid #ddd; border-radius: 6px; box-sizing: border-box; }
+
+.cta-btn { background: var(--accent); color: white; padding: 16px 40px; text-decoration: none; border-radius: 5px; font-weight: bold; cursor: pointer; display: inline-block; transition: 0.3s; border: none; }
+footer { background: var(--primary); color: white; text-align: center; padding: 4rem 5%; }
+.footer-logo { height: 100px; filter: brightness(0) invert(1); margin-bottom: 20px; }
+
+@media (max-width: 768px) { .header-link-text { display: none; } .hero h1 { font-size: 2.2rem; } .hero-logo { height: 180px; } }
+</style>
+</head>
+<body>
+
+<header>
+<div class="logo-container">
+<img src="image.png" alt="Duran Construction LLC Logo" class="nav-logo">
+</div>
+<div class="header-contacts">
+<a href="mailto:info@Duran.construction" class="nav-link">✉️ <span class="header-link-text">Email</span></a>
+<a href="https://www.instagram.com/dconstrullc?igsh=MnNrNHYwa2owaHN5" target="_blank" class="nav-link" style="background: var(--ig); border: none;">📸 <span class="header-link-text">Instagram</span></a>
+<a href="tel:9295086227" class="nav-link phone-link">📞 <span class="header-link-text">929-508-6227</span></a>
+</div>
+</header>
+
+<section class="hero">
+<img src="image.png" alt="Duran Construction LLC Logo" class="hero-logo">
+<div class="badge">✓ LICENSED & FULLY INSURED</div>
+<h1 style="font-size: 3.5rem; margin: 10px 0;">Allentown's Remodeling Experts</h1>
+<p style="font-size: 1.3rem;">Reliable Craftsmanship in Allentown, PA 18103.</p>
+<div style="display: flex; gap: 15px; margin-top: 25px; flex-wrap: wrap; justify-content: center;">
+<a href="#contact" class="cta-btn">Free Estimate</a>
+<a href="https://wa.me/19295086227" class="cta-btn" style="background: var(--wa);">WhatsApp Us</a>
+</div>
+</section>
+
+<section class="section-padding">
+<h2 class="text-center">Our Specialized Services</h2>
+<div class="service-grid">
+<div class="card"><span>🏗️</span><h3>Additions</h3><p>Professional extensions & structural work.</p></div>
+<div class="card"><span>🍳</span><h3>Kitchen & Bath</h3><p>Modern luxury transformations.</p></div>
+<div class="card"><span>📏</span><h3>Drywall</h3><p>Install, tape, and professional finish.</p></div>
+<div class="card"><span>🪟</span><h3>Windows & Doors</h3><p>Energy-efficient installations.</p></div>
+<div class="card"><span>🏠</span><h3>Flooring</h3><p>Expert Tile, Hardwood, and LVP.</p></div>
+<div class="card"><span>❄️</span><h3>HVAC</h3><p>Heating and Cooling solutions.</p></div>
+<div class="card"><span>🔧</span><h3>Handyman</h3><p>General home repairs and maintenance.</p></div>
+<div class="card"><span>🛋️</span><h3>Furniture</h3><p>Assembly and Hardware installation.</p></div>
+</div>
+</section>
+
+<section class="section-padding" style="background: var(--light);">
+<h2 class="text-center">Accepted Payment Methods</h2>
+<div class="payment-grid">
+<div class="pay-method" style="border-bottom: 3px solid var(--zelle);">🟣 Zelle</div>
+<div class="pay-method" style="border-bottom: 3px solid var(--venmo);">🔵 Venmo</div>
+<div class="pay-method" style="border-bottom: 3px solid #0070ba;">💳 Cards</div>
+<div class="pay-method" style="border-bottom: 3px solid #666;">📝 Checks</div>
+<div class="pay-method" style="border-bottom: 3px solid var(--success);">💵 Cash</div>
+</div>
+<div class="disclaimer-box">
+<strong>📌 Payment Terms:</strong><br>
+* A 50% deposit is required for all major remodeling and addition projects.<br>
+* Handyman services and small repairs are due upon completion.
+</div>
+</section>
+
+<section class="section-padding" id="contact" style="background: var(--primary); color: white;">
+<h2 class="text-center">Get Your Free Quote</h2>
+<form action="https://formspree.io/f/xoqogvww" method="POST">
+<input type="hidden" name="_replyto" value="info@Duran.construction">
+<input type="hidden" name="_subject" value="New Website Lead - Duran Construction LLC">
+
+<label>Name</label><input type="text" name="name" placeholder="Full Name" required>
+<label>Phone</label><input type="tel" name="phone" placeholder="929-508-6227" required>
+
+<label>Service</label>
+<select name="service">
+<option>Addition</option><option>Kitchen/Bath</option><option>Drywall</option><option>Flooring</option><option>HVAC</option><option>Handyman</option>
+</select>
+
+<label>Details</label>
+<textarea name="message" rows="4" placeholder="Tell us about your project..." required></textarea>
+
+<button type="submit" class="cta-btn" style="width: 100%;">Send Request to Johand</button>
+</form>
+</section>
+
+<footer>
+<img src="image.png" alt="Duran Construction LLC Logo" class="footer-logo">
+<h2>DURAN CONSTRUCTION LLC</h2>
+<p>929-508-6227 | info@Duran.construction | Allentown, PA 18103</p>
+<p>© 2026 Duran Construction LLC. Licensed & Fully Insured.</p>
+
+<p style="font-size: 0.7rem; color: rgba(255,255,255,0.4); margin-top: 30px; letter-spacing: 0.5px;">
+If you are a good carpenter looking for a job, please send us an email with the subject "goal carpenter".
+</p>
+</footer>
+
+</body>
+</html>
+
